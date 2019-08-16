@@ -4,17 +4,17 @@ $(document).ready(function(event) {
     var answer4 = $("input#question4").val();
 
     if (answer2 === "yes" && answer4 === "yes" ){
-      $("#python").show();
-    //  $(this).remove();
-      $(".languages").text();
+      $(".languages").show();
+      $("#languages").text("Python");
     }
       else if (answer2 === "yes" && answer4 === "no"){
-        $("#ruby").show();
+        $(".languages").show();
+        $("#languages").text("Ruby");
       }
       else {
-        $("#swift").show ();
+        $(".languages").show ();
+        $("#languages").text("Swift");
       }
-
 
     event.preventDefault();
   });

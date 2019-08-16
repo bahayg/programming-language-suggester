@@ -1,29 +1,27 @@
-#python {
-  display: none;
+div.container p {
+  color: blue;
+  text-align: center;
 }
 
-#ruby {
-  display: none;
-}
-
-#swift {
-  display: none;
-}
  h2 {
    text-align: center;
    margin-top: 40px;
  }
+
 #formOne {
   width: 1000px;
   border: 3px solid gray;
   padding: 20px;
   margin: 30px;
 }
-div.container p {
+
+div.languages {
+  display: none;
   color: blue;
   text-align: center;
 }
-div.languages p {
-  font-size: 32px;
+
+#languages {
+  font-size: 48px;
   font-weight: bold;
 }
