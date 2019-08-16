@@ -4,18 +4,26 @@ $(document).ready(function(event) {
     var answer4 = $("input#question4").val();
 
     if (answer2 === "yes" && answer4 === "yes" ){
-      $(".languages").show();
+      $(".languages").fadeIn("slow").show();
       $("#languages").text("Python");
     }
       else if (answer2 === "yes" && answer4 === "no"){
-        $(".languages").show();
+        $(".languages").fadeIn("slow").show();
         $("#languages").text("Ruby");
       }
-      else {
-        $(".languages").show ();
+      else if (answer2 === "no" && answer4 === "yes"){
+        $(".languages").slideDown("slow").show();
         $("#languages").text("Swift");
       }
+      else if (answer2 === "no" && answer4 === "no"){
+        $(".languages").slideDown("slow").show();
+        $("#languages").text("Swift");
+      }
+      else {
+        alert("Please answer all of the questions!")
+      }
 
+    //  }
     event.preventDefault();
   });
 

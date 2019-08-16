@@ -1,5 +1,5 @@
 div.container p {
-  color: blue;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -17,7 +17,7 @@ div.container p {
 
 div.languages {
   display: none;
-  color: blue;
+  color: #9932CC;
   text-align: center;
 }
 
