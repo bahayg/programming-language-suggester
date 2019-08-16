@@ -1,11 +1,11 @@
 # _Programming Language Suggester_
 
 #### _Given a task to build a "Programming Language Suggester" website for Epicodus as a Week 2 Independent Project, 08/16/19_
-#### _** By Bahay Gulle Bilgi**_
+### _** By Bahay Gulle Bilgi**_
 
 ## Description
 
-Create an application for people interested in coding to decide which language they should learn first
+Create an application for people interested in coding to decide which language they should learn first.
 ### Website should have:
 
 - A feature that asks future students a series of questions about themselves and provides a language suggestion based on their answers.
@@ -21,13 +21,13 @@ Create an application for people interested in coding to decide which language t
 
 * Work in progress; there are no known bugs at this time.
 
-## Support and contact details
+## Support and Contact Details
 
 bahayg@gmail.com
 
 ## Technologies Used
 
-HTML, CSS, JavaScript, jQuery, git, GitHub, atom, terminal.      
+HTML, CSS, JavaScript, jQuery, git, GitHub, atom and terminal.      
 
 ### License
 
