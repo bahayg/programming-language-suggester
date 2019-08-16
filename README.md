@@ -32,4 +32,4 @@ HTML, CSS, JavaScript, jQuery, git, GitHub, atom and terminal.
 ### License
 
 Copyright (c) 2019 Bahay Gulle Bilgi.
-This software is licenced under the MIT License
+This software is licenced under the MIT License.
