@@ -1,8 +1,11 @@
 $(document).ready(function(event) {
   $("#formOne").submit(function(event){
+    var personInput = $("input#person").val();
     var answer2 = $("input#question2").val();
     var answer4 = $("input#question4").val();
 
+    $(".person").text(personInput);
+    
     if (answer2 === "yes" && answer4 === "yes" ){
       $(".languages").fadeIn("slow").show();
       $("#languages").text("Python");
