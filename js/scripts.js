@@ -5,7 +5,7 @@ $(document).ready(function(event) {
     var answer4 = $("input#question4").val();
 
     $(".person").text(personInput);
-    
+
     if (answer2 === "yes" && answer4 === "yes" ){
       $(".languages").fadeIn("slow").show();
       $("#languages").text("Python");
@@ -26,8 +26,6 @@ $(document).ready(function(event) {
         alert("Please answer all of the questions!")
       }
 
-    //  }
     event.preventDefault();
   });
-
 });
