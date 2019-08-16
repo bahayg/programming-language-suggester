@@ -1,0 +1,29 @@
+#python {
+  display: none;
+}
+
+#ruby {
+  display: none;
+}
+
+#swift {
+  display: none;
+}
+ h2 {
+   text-align: center;
+   margin-top: 40px;
+ }
+#formOne {
+  width: 1000px;
+  border: 3px solid gray;
+  padding: 20px;
+  margin: 30px;
+}
+div.container p {
+  color: blue;
+  text-align: center;
+}
+div.languages p {
+  font-size: 32px;
+  font-weight: bold;
+}
